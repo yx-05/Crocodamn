@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crocodile Birthday Promotion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><img class="logo" src="logo.png" alt="logo"></header>
+    <div class="buttonContainer"><button class="button" onclick="show()"><img src="clickmepicture.png" alt="button"></button></div>
+    <div class="message">
+        <p>This is a message</p>
+        <img src="photo.png" alt="girl">
+    </div>
+    <script>
+        const message = document.querySelector('.message');
+        const button =  document.querySelector('.buttonContainer');
+        function show(){
+            button.style.display = 'none';
+            message.style.display = 'flex';
+        }
+    </script>
+</body>
+</html>
