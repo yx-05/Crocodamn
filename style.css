@@ -24,7 +24,7 @@ header{
 .buttonContainer{
     width: 100%;
     margin-top: 50%;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -37,8 +37,13 @@ header{
 
 .message{
     margin-top: 20%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.message img{
+    width: 90%;
+    height: auto;
 }
